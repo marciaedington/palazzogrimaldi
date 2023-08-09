@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imobiliaria</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>  
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />  
+</head>
+<body>
+    
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">
+            Marcia Edington Corretora<i class='bx bxs-home-alt-2'></i>
+        </a>
+        <div class="nav__menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link activate-link">
+                        <i class='bx bx-home-alt-2'></i>
+                        <span>Inicio</span>
+                    </a>
+                </li>    
+
+                <li class="nav__item">
+                    <a href="#popular" class="nav__link">
+                        <i class='bx bx-building-house' ></i>
+                        <span>Destaques</span>
+                    </a>
+                </li>    
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class='bx bx-phone'></i>
+                        <span>Contato</span>
+                    </a>
+                </li>    
+            </ul>
+        </div> 
+    </nav>       
+</header>
+
+
+
+<!--==================== HOME ====================-->
+<main class="main">
+    <section class="home section" id="home">
+       <div class="home__container container grid">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Conheça o Palazzo Grimaldi
+                </h1>
+                <p class="home__description">
+                    Viva uma vida de exclusividade e conforto no Palazzo Grimaldi. Sua busca pelo refúgio perfeito termina aqui.
+                </p>
+
+                <div class="div home__value">
+                    <div>
+                        <h1 class="home__value-number">
+                            <span>02</span> quartos<br>
+                        </h1>
+                        <span class="home__value-description">
+                            Confortável e aconchegante
+                        </span>
+                    </div>
+                    
+                    <div>
+                        <h1 class="home__value-number">
+                            <span>03</span> quartos 
+                        </h1>
+                        <span class="home__value-description">
+                            Espaçoso e com bela vista
+                        </span>
+                    </div>
+
+                </div> 
+            </div>
+
+            <div class="home__images">
+                <img src="./assets/images/palanzo.png" alt="">
+            </div>
+
+       </div>      
+    </section>
+
+
+<!--==================== LOGOS ====================-->
+<!-- <section class="logos section" id="logos">
+    <div class="logos__container container grid">
+        <div class="logos__img">
+            <img src="./assets/images/quarto.JPG" alt="Construtora Parceira">
+        </div>
+        <div class="logos__img">
+            <img src="./assets/images/sala.JPG" alt="Construtora Parceira">
+        </div>
+        <div class="logos__img">
+            <img src="./assets/images/varanda.JPG" alt="Construtora Parceira">
+        </div>
+        <div class="logos__img">
+            <img src="./assets/images/planta.png" alt="Construtora Parceira">
+        </div>
+    </div>
+</section> -->
+
+<section class="popular section" id="popular">
+    <div class="container">
+        <span class="section__subtitle">Sua próxima conquista </span>
+        <h2 class="section__title">
+            Tour Pelas Áreas do Seu Novo Lar<span>.</span>
+        </h2>
+
+        <div class="popular__container swiper">
+            <div class="swiper-wrapper">
+
+                <!--Exempo 1-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/quarto.JPG" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Apartamentos de 02 e 03 quartos.
+                        </h3>
+                        <p class="popular__description">
+                            Escolha o que combina melhor com a sua família. 
+                        </p>
+                    </div>
+                </article>
+
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/sala.JPG" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Sala
+                        </h3>
+                        <p class="popular__description">
+                            Uma fusão de estilo contemporâneo e conforto, criando o espaço perfeito para momentos de serenidade e descontração.
+                        </p>
+                    </div>
+                </article>
+
+                <!--Exempo 2-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/varanda.JPG" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Varanda
+                        </h3>
+                        <p class="popular__description">
+                            Sua varanda como um local sereno para escapar do cotidiano e recarregar energias.
+                        </p>
+                    </div>
+                </article>
+
+                <!--Exempo 4-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/planta.png" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Planta
+                        </h3>
+                        <p class="popular__description">
+                            Explore cada canto deste espaço cuidadosamente projetado.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="swiper-pagination"></div> 
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--==================== CASAS ====================-->
+<section class="popular section" id="popular">
+    <div class="container">
+        <span class="section__subtitle">Nossos Destaques</span>
+        <h2 class="section__title">
+            Detalhes que fazem a diferença<span>.</span>
+        </h2>
+
+        <div class="popular__container swiper">
+            <div class="swiper-wrapper">
+
+                <!--Exempo 1-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/espaco-gourmet.JPG" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Área Gourmet
+                        </h3>
+                        <p class="popular__description">
+                            O lugar ideal para receber suas visitas, realizar confraternizações e desfrutar de uma bela churrasqueira.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/salao-de-festa.JPG" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Salão de festas
+                        </h3>
+                        <p class="popular__description">
+                            Comemorações inesquecíveis estão garantidas quando se tem um salão de festas amplo, à disposição para receber amigos e criar memórias lindas.
+                        </p>
+                    </div>
+                </article>
+
+                <!--Exempo 2-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/piscina.JPG" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Piscina com borda infinita 
+                        </h3>
+                        <p class="popular__description">
+                            Mergulhe na sofisticação <br>
+                            Diversão garantida para todos.
+                        </p>
+                    </div>
+                </article>
+
+                <!--Exempo 4-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/academia.JPG" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Academia Moderna
+                        </h3>
+                        <p class="popular__description">
+                            Conquiste saúde e comodidade em um só lugar. Uma academia à porta da sua casa para uma vida ativa e equilibrada!
+                        </p>
+                    </div>
+                </article>
+
+                <!--Exempo 5-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/guarita.png" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h3 class="popular__title">
+                            Guarita de Segurança
+                        </h3>
+                        <p class="popular__description">
+                            Segurança 24 horas: Com uma guarita no condomínio, você desfruta de tranquilidade e proteção, tornando seu lar um verdadeiro refúgio.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="swiper-pagination"></div> 
+        </div>
+    </div>
+</section>
+
+
+
+<!--==================== VALUE ====================-->
+<section class="value section" id="value">
+    <div class="value__container container grid">
+        <div class="value_img">
+            <img src="./assets/images/guarita.png" alt="">
+        </div>
+ 
+            <div class="value__content">
+                <div class="value_data">
+                    <span class="section__subtitle">Vantagens</span>
+                    <h2 class="section__title">
+                        Confira mais algumas vantagens exclusivas que o palazzo oferece para você<span>.</span>
+                    </h2>
+                </div>
+     
+            <!--Item 1-->
+            <div class="value__accordion">
+
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        
+                        <i class='bx bxs-star value__accordion-icon'></i>                        
+                        <h3 class="value__accordion-title">
+                            Mais comodidade
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            O primeiro empreendimento residencial do Baixo Sul a oferecer 2 elevadores, além de uma garagem subterrânea exclusiva.                        
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        
+                        <i class='bx bxs-location-plus value__accordion-icon'' ></i>
+                        <h3 class="value__accordion-title">
+                            Excelente Localização
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            Localizado no nobre bairro Grimaldi. Próximo à faculdades e belas praias, vivencie um estilo de vida sofisticado, cercado por belezas.
+                        </p>
+                    </div>
+                </div>
+
+            <!--Item 2-->           
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-bar-chart-square value__accordion-icon'></i>
+                        <h3 class="value__accordion-title">
+                            Facilidade para realizar seu sonho.
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            Com o financiamento da Caixa, você estará mais próximo da conquista do seu imóvel próprio. Financie até 80% do seu
+                            apartamento no Palazzo Grimaldi e faça o melhor investimento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<!--==================== CONTACT ====================-->
+<section class="contact section" id="contact">
+    <div class="contact__container container grid">
+        <div class="contact__images">
+            <div class="contact__orbe"></div>
+
+            <div class="contact__img">
+                <img src="./assets/images/marcia.png" alt="Contato">
+            </div>
+        </div>
+
+        <div class="contact__content">
+
+            <div class="contact__data">
+                <span class="section__subtitle">Contato</span>
+                <h2 class="section__title">
+                    Entre em contato<span>.</span>
+                </h2>
+                <p class="contact__description">
+                    Transforme o seu sonho da casa própria em realidade. Seja o dono privilegiado no Palazzo Grimaldi. Entre em contato agora mesmo.
+                </p>
+            </div>
+
+
+            <div class="contact__card">
+
+                <!--Contato telefone-->
+                <div class="contact_card-box">
+                    <div class="contact__card-info">
+                        <i class='bx bxs-phone-call'></i>
+                        <div>
+                            <h3 class="contact__card-title">
+                            Telefone 
+                            </h3>
+                            <p class="contact__card-description">
+                                (75) 98261-0680 
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <a href="tel:+5575982610680">
+                        <button class="contact__card-button">
+                            Ligue Agora
+                        </button>
+                    </a>
+                    
+                </div>
+
+                <!--Contato WhatsApp-->
+                <div class="contact_card-box">
+                    <div class="contact__card-info">
+                        <i class='bx bxl-whatsapp'></i>
+                        <div>
+                            <h3 class="contact__card-title">
+                                WhatsApp
+                            </h3>
+                            <p class="contact__card-description">
+                                (75) 98261-0680
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5575982610680" target="_blank">
+                        <button class="contact__card-button">
+                            WhatsApp
+                        </button>
+                    </a>
+                </div>
+
+                <!--Contato Email-->
+                <div class="contact_card-box">
+                    <div class="contact__card-info">
+                        <i class='bx bxs-envelope'></i>
+                        <div>
+                            <h3 class="contact__card-title">
+                                E-mail
+                            </h3>
+                            <p class="contact__card-description">
+                                contato@marciaedington.com.br
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="mailto:contato@marciaedington.com.br">
+                        <button class="contact__card-button">
+                            Mensagem
+                        </button>
+                    </a>
+                </div>
+
+            
+            </div>
+        </div>
+    </div>    
+</section>
+
+<!--==================== APPOINTMENT ====================-->
+
+<!-- <section class="appointment section">
+    <div class="appointment-container container">
+        <div class="info">
+            <h2>Envie uma mensagem<span>.</span></h2>
+            <p>Mande uma mensagem que entraremos em contato o mais breve possivel.</p>
+        </div>
+
+        <form action="https://formspree.io/f/xzbqyqpr" method="POST" class="form__appointment">
+
+            <div class="form__group">
+                <label for="name">Nome</label>
+                <input type="text" placeholder="Digite seu nome" name="Nome do Cliente" id="name" required>
+            </div>
+
+            <div class="form__group">
+                <label for="phone">Telefone</label>
+                <input type="number" placeholder="Digite seu telefone" name="Numero de Telefone" id="number" required>
+            </div>
+
+            <div class="form__group">
+                <label for="return">Selecione a forma de retorno</label>
+                <select name="return" required>
+                    <option value="ligação-durante-manha" required>Ligação durante o período da manhã</option>
+                    <option value="ligação-durante-tarde">Ligação durante o período da tarde</option>
+                    <option value="ligação-durante-noite">Ligação durante o período da noite</option>
+                    <option value="whatsApp">WhatsApp</option>
+                    <option value="email">E-mail</option>
+                </select>
+            </div>
+
+
+            <div class="form__group">
+                <label for="message">Mensagem</label>
+                <textarea name="Mensagem" id="message" rows="6" placeholder="Adicione uma mensagem"></textarea>
+            </div>
+            <input type="submit" value="Enviar Mensagem" class="btn-primary">
+        </form>
+    </div>
+</section> -->
+
+
+<!--==================== FOOTER ====================-->
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div>
+            <a href="#" class="footer__logo">
+                Marcia Edington<i class='bx bxs-home-alt-2'></i>
+            </a>
+            <p class="footer__description">
+                Conte comigo para realizar seu sonho da casa própria. <br>
+                Creci 8979F
+            </p>
+        </div>
+
+        <div class="footer__content">
+                <h3 class="footer__title">
+                    Novidades
+                </h3>
+                <ul class="footer__social">
+                    <a href="https://www.instagram.com/corretoramarciaedington/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                </ul>
+        </div>
+    </div>
+
+    <div class="footer__info ">
+        <span class="footer__copy">
+            &#169; Marcia Edington. Todos os direitos reservados.
+        </span>
+    </div>
+</footer>
+
+
+<!--========== SCROLL UP ==========-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class='bx bx-chevrons-up'></i>
+</a>
+
+<!--=============== SCROLLREVEAL ===============-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<!--=============== MAIN JS ===============-->
+<script src="./assets/js/main.js"></script>
+    
+</body>
+</html>
